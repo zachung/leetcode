@@ -1,0 +1,20 @@
+{
+    "name": "zachung/leetcode",
+    "autoload": {
+        "psr-4": {
+            "Leetcode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leetcode\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^3.8"
+    }
+}
